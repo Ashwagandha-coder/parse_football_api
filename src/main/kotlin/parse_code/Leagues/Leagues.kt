@@ -3,12 +3,20 @@ package parse_code.Leagues
 import com.squareup.moshi.JsonClass
 import com.squareup.moshi.Moshi
 import parse_code.TimeZone.Paging
-import java.net.CacheResponse
 
 fun main() {
 
 
     val leaguesObject = Leagues().parse()
+
+    val list_seasons = leaguesObject.response.get(0).seasons
+
+    list_seasons.sortedByDescending { it.year }
+
+    list_seasons.forEach { println(it.year) }
+
+
+
 
 
 }

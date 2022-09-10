@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="add constants">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Leagues.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Seasons.kt" afterDir="false" />
+    <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="parse json leagues">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Leagues.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Leagues.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662812374662</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="parse json leagues">
+      <created>1662813912706</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662813912706</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +159,7 @@
     <MESSAGE value="refactoring and println forEach massive element" />
     <MESSAGE value="add json's files" />
     <MESSAGE value="add constants" />
-    <option name="LAST_COMMIT_MESSAGE" value="add constants" />
+    <MESSAGE value="parse json leagues" />
+    <option name="LAST_COMMIT_MESSAGE" value="parse json leagues" />
   </component>
 </project>

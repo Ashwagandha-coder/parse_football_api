@@ -4,17 +4,23 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.JsonClass
 import com.squareup.moshi.Moshi
+import java.nio.charset.Charset
 
 
 fun main() {
 
-    TimeZone().parse()
+    val timeZoneObject = TimeZone().parse()
+
+    val list: List<String> = timeZoneObject.response
+
+
+    list.forEach { e -> println("$e ") }
 
 }
 
 class TimeZone {
 
-    fun parse() {
+    fun parse(): TimeZoneObject {
 
         val moshi = Moshi.Builder().build()
 
@@ -22,7 +28,7 @@ class TimeZone {
 
         val timeZoneObject = adapter.fromJson(timeZone)
 
-        println(timeZoneObject?.get?: "hueta")
+        return timeZoneObject!!
 
     }
 
@@ -30,11 +36,11 @@ class TimeZone {
 @JsonClass(generateAdapter = true)
 data class TimeZoneObject(
     @Json(name = "get") val get: String,
-    @Json(name = "parameters") val parameters: Array<Any?>,
-    @Json(name = "errors") val errors: Array<Any?>,
+    @Json(name = "parameters") val parameters: List<Any?>,
+    @Json(name = "errors") val errors: List<Any?>,
     @Json(name = "results") val results: Int,
     @Json(name = "paging") val paging: Paging,
-    @Json(name = "response") val response: Array<String>
+    @Json(name = "response") val response: List<String>
 )
 @JsonClass(generateAdapter = true)
 data class Paging(

@@ -14,6 +14,7 @@ fun main() {
     list.forEach { println(it.code) }
 
 
+
 }
 
 class Countries {
@@ -27,6 +28,7 @@ class Countries {
         val countriesObject = adapter.fromJson(countries)
 
         return countriesObject!!
+
 
     }
 

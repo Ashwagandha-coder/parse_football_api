@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="refactoring and println forEach massive element">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/json/Countries/Countries.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Countries/Constant.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Countries/Countries.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/json/Leagues/Leagues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/json/Leagues/Seasons.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

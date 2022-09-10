@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.7.10"
+    id("com.google.devtools.ksp").version("1.6.10-1.0.4") // Or latest version of KSP
     application
 }
 
@@ -13,6 +14,8 @@ repositories {
 }
 
 dependencies {
+    ksp("com.squareup.moshi:moshi-kotlin-codegen:1.14.0")
+    implementation("com.squareup.moshi:moshi:1.14.0")
     testImplementation(kotlin("test"))
 }
 

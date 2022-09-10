@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="add two structure files">
+    <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="refactoring and println forEach massive element">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/json/Countries/Countries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Countries/Constant.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Countries/Countries.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/parse_code/TimeZone/TimeZone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/TimeZone/TimeZone.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662798381932</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactoring and println forEach massive element">
+      <created>1662806835717</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662806835717</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +138,7 @@
     <MESSAGE value="add first file for test structure" />
     <MESSAGE value="add two structure files" />
     <MESSAGE value="add base dependecies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add base dependecies" />
+    <MESSAGE value="refactoring and println forEach massive element" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring and println forEach massive element" />
   </component>
 </project>

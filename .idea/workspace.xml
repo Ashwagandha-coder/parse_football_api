@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="refactoring and println forEach massive element">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/json/Leagues/Leagues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/json/Leagues/Seasons.json" afterDir="false" />
+    <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="add constants">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Leagues.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Seasons.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662806835717</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add json's files">
+      <created>1662812206440</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662812206440</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add constants">
+      <created>1662812374662</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662812374662</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +151,8 @@
     <MESSAGE value="add two structure files" />
     <MESSAGE value="add base dependecies" />
     <MESSAGE value="refactoring and println forEach massive element" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring and println forEach massive element" />
+    <MESSAGE value="add json's files" />
+    <MESSAGE value="add constants" />
+    <option name="LAST_COMMIT_MESSAGE" value="add constants" />
   </component>
 </project>

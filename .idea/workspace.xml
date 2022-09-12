@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="parse json leagues">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Leagues.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Leagues.kt" afterDir="false" />
+    <list default="true" id="7ae7687e-e8cc-4010-bcce-015380ce623d" name="Changes" comment="refactoring Leagues.kt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Seasons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/parse_code/Leagues/Seasons.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

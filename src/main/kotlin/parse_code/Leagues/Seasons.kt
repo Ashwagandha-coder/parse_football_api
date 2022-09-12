@@ -18,8 +18,12 @@ class Seasons {
 
     fun action(seasonsObject: SeasonsObject) {
 
-        val list_response: List<Int> = seasonsObject.response
+        var list_response: List<Int> = seasonsObject.response
 
+
+        list_response = list_response.sortedByDescending { it }
+
+        list_response.forEach { e -> print("$e ") }
 
 
     }
@@ -47,5 +51,5 @@ data class SeasonsObject(
     val errors: List<Any?>,
     val results: Int,
     val paging: Paging,
-    val response: List<Int>
+    var response: List<Int>
 )
